@@ -70,12 +70,19 @@ setTimeout(function(){
 }, 1200);
 ```
 ### fail(callback)
-fail方法是个异常处理机制，通过一次注册和触发error事件来处理异常情况。
+fail方法是个异常处理机制，通过监听所有error事件来处理异常情况。
 - @param callback  回调
 ```
-handle.fail(function(){
-		console.log("fail!!!!!!!!!!!");
+handle.fail(function(err){
+		console.log(err.message);
 });
+
+try{
+	aa++;
+}catch(err){
+	handle.emit("error", err);
+}
+
 ```
 
 ##Issue
