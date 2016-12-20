@@ -1,0 +1,23 @@
+{
+  "name": "eventhandle.js",
+  "version": "1.0.0",
+  "description": "an implementation of events based nodeJs, refs eventproxy.js",
+  "homepage": "http://www.mjpiero.cc/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MJPiero/M-eventHandle.js.git"
+  },
+  "keywords": [
+    "mjpiero",
+    "eventHandle"
+  ],
+  "author": "majing <merlu.majing@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MJPiero/M-eventHandle.js/issues"
+  },
+  "dependencies": {
+    "events": "^1.1.1",
+    "util": "^0.10.3"
+  }
+}
