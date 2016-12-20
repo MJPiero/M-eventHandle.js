@@ -12,8 +12,8 @@ var handle = new eventHandle();
 ```
 ### all(eventname1, eventname2..., callback)
 all方法会注册所有指定事件，并且在所有事件触发完成之后获取回调。
-@param eventname1,eventname2...  事件标识
-@param callback  回调函数
+- @param eventname1,eventname2...  事件标识
+- @param callback  回调函数
 
 ```
 handle.all("aa","bb","cc", function(aa, bb, cc){
@@ -37,9 +37,9 @@ setTimeout(function(){
 
 ### after(eventname, times, callback)
 after方法实现在多次触发统一事件时，在指定触发次数之后获取回调。
-@param eventname  事件标识
-@param times  事件被触发次数
-@param callback  回调
+- @param eventname  事件标识
+- @param times  事件被触发次数
+- @param callback  回调
 
 ```
 handle.after("after", 3,function(aa, bb, cc){
@@ -71,6 +71,7 @@ setTimeout(function(){
 ```
 ### fail(callback)
 fail方法是个异常处理机制，通过一次注册和触发error事件来处理异常情况。
+- @param callback  回调
 ```
 handle.fail(function(){
 		console.log("fail!!!!!!!!!!!");
