@@ -85,5 +85,10 @@ try{
 
 ```
 
-##Issue
+## Test
+在终端输入
+```
+npm test
+```
+## Issues
 [click here](https://github.com/MJPiero/M-eventHandle.js/issues)
