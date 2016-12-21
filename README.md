@@ -11,7 +11,7 @@ npm install eventhandle.js
 
 ### 调用eventHandle
 ```
-var eventHandle = require("../lib/eventHandle");
+var eventHandle = require("eventhandle.js");
 var handle = new eventHandle();
 ```
 ### all(eventname1, eventname2..., callback)
