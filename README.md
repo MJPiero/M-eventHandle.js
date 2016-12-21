@@ -1,5 +1,9 @@
 # M-eventHandle.js
 nodeJs events 拓展事件处理机制, refs eventproxy.js, 自用~
+## Install
+```
+npm install eventhandle.js
+```
 ## 继承events
 继承events所有方法。[events API](http://nodejs.org/api/events.html)
 
