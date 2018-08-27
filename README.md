@@ -1,4 +1,7 @@
 # M-eventHandle.js
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/MJPiero/M-eventHandle.js.svg)](https://greenkeeper.io/)
+
 nodeJs events 拓展事件处理机制, refs eventproxy.js, 自用~
 ## Install
 ```
